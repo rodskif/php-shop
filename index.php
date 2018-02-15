@@ -11,11 +11,21 @@
         <?php
             include("include/header.php");
         ?>
-        <div id="block-right"></div>
+        <div id="block-right">
+          <?php
+            include("include/category.php");
+            include("include/parametr.php");
+            include("include/news.php");
+          ?>
+        </div>
         <div id="block-content"></div>
         <?php
             include("include/footer.php");
         ?>
     </div>
+    
+    <script type="text/javascript" src="js/jquery-1.8.2.min.js"></script>
+    <script type="text/javascript" src="js/jcarousellite_1.0.1.js"></script>
+    <script type="text/javascript" src="js/shopscript.js"></script>
 </body>
 </html>
