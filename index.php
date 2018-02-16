@@ -18,7 +18,28 @@
             include("include/news.php");
           ?>
         </div>
-        <div id="block-content"></div>
+        <div id="block-content">
+          <div id="block-sort">
+            <p id="nav-breadcrumbs"><a href="index.php">Главная страница</a> \ <span>Все товары</span></p>
+            <ul id="option-list">
+              <li>Вид:</li>
+              <li><img src="img/icon-grid.png" id="style-grid" alt=""></li>
+              <li><img src="img/icon-list.png" id="style-list" alt=""></li>
+              
+              <li>Сортировать:</li>
+              <li>
+                <a id="select-sort">Без сортировки</a>
+                <ul id="sorting-list">
+                  <li><a href="#">От дешевых к дорогим</a></li>
+                  <li><a href="#">От дорогих к дешевым</a></li>
+                  <li><a href="#">Популярное</a></li>
+                  <li><a href="#">Новинки</a></li>
+                  <li><a href="#">От А до Я</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
         <?php
             include("include/footer.php");
         ?>

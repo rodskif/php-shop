@@ -20,7 +20,6 @@
 #block-content {
     width: 800px;
     min-height: 400px;
-    border: 1px solid #000;
 }
 #header-top-block {
     width: 1035px;
@@ -29,7 +28,6 @@
 #block-footer {
     width: 1035px;
     height: 160px;
-    border: 1px solid #000;
     margin-top: 10px;
   clear: both;
 }
@@ -325,4 +323,101 @@
   font: 13px sans-serif;
   padding-bottom: 5px;
   color: #636363;
+}
+#footer-suport {
+  width: 270px;
+  float: left;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+#footer-suport .phone-item {
+  font: bold 23px sans-serif;
+  margin: 5px 0;
+}
+#footer-suport .suport-title {
+  font: bold 15px sans-serif;
+  margin: 0;
+}
+#footer-suport .time-item {
+  font: 15px sans-serif;
+  margin: 5px 0;
+}
+.footer-list {
+  width: 200px;
+  float: left;
+  margin-left: 10px;
+}
+.footer-list li {
+  margin-top: 5px;
+}
+.footer-list p {
+  font: bold 14px sans-serif;
+  margin-bottom: 10px;
+  color: #641B74;
+}
+.footer-list a {
+  font: 14px sans-serif;
+  text-decoration: none;
+  color: #7b7b7b;
+}
+.footer-list a:hover {
+  text-decoration: underline;
+}
+#nav-breadcrumbs {
+  margin-top: 5px;
+}
+#nav-breadcrumbs a {
+  font: 14px sans-serif;
+  color: #4268B1;
+  text-decoration: none;
+}
+#nav-breadcrumbs a:hover {
+  color: #B20000;
+}
+#nav-breadcrumbs span {
+  font: 14px sans-serif;
+  color: #7F868E;
+}
+#block-sort {
+  height: 60px;
+  border-bottom: 1px solid #eee;
+}
+#option-list > li {
+  float: left;
+  margin-left: 10px;
+  font: 14px sans-serif;
+}
+#option-list img {
+  margin-top: -4px;
+  cursor: pointer;
+}
+#option-list {
+  margin-left: -10px;
+}
+#select-sort {
+  position: relative;
+  color: #748996;
+  text-decoration: underline;
+  cursor: pointer;
+}
+#sorting-list {
+  border: 1px solid #A3C0D2;
+  position: absolute;
+  width: 200px;
+  background-color: #fff;
+  padding-top: 5px;
+  display: none;
+/*  height: 108px;*/
+}
+#sorting-list li {
+  margin-top: 3px;
+  margin-left: 10px;
+}
+#sorting-list a {
+  font: 15px sans-serif;
+  text-decoration: none;
+  color: #000;
+}
+#sorting-list a:hover {
+  text-decoration: underline;
 }
